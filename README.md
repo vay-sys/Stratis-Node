@@ -5,8 +5,17 @@ Tutorial Stratis Node
 
 ## Bahan
 
-VPS
+- VPS
+- Termius (HP) ataupun yang lainnya
+- Mobaterm X (PC) ataupun yang lainnya
 
+## RPC
+
+Network Name ```Auroria```
+RPC URL ```https://auroria.rpc.stratisevm.com```
+CID ```205205```
+Symbol ```STRAX```
+Explorer ```https://auroria.explorer.stratisevm.com```
 
 
 ## Tutorial
@@ -203,6 +212,11 @@ contoh
 ```
 ./validator --wallet-dir=/root/.eth2validators/prysm-wallet-v2 --auroria --suggested-fee-recipient=0x......
 ```
+Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih berjalan secara background
 
+
+# DONE
+
+# Sementara ini saja, next info jika update akan saya share di [Twitter](x.com/vegardian)
 
 
