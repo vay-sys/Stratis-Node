@@ -77,6 +77,14 @@ wget https://github.com/stratisproject/staking-deposit-cli/releases/download/0.1
 
 # 3 Extract semua filenya
 
+Memakai unzip dan jika belum punya bisa install dulu melalui command
+
+```
+apt install unzip
+```
+
+Setelah usai lanjut extract
+
 ```
 tar -xf geth-linux-amd64-5c4504c.tar.gz
 rm -rf geth-linux-amd64-5c4504c.tar.gz
@@ -86,4 +94,9 @@ tar -xf validator-linux-amd64-0ebd251.tar.gz
 rm -rf validator-linux-amd64-0ebd251.tar.gz
 unzip staking-deposit-cli-linux-amd64.zip
 ```
+
+
+
+
+
 
