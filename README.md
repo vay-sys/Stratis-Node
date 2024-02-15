@@ -1,4 +1,3 @@
-{Tahap Pembuatan}
 
 # Stratis-Node
 Tutorial Stratis Node
@@ -234,4 +233,6 @@ Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih be
 
 # Sementara ini saja, next info jika update akan saya share di [Twitter](x.com/vegardian)
 
+
+{Jika ada kesalahan harap dimaklumi karena newbie :D }
 
