@@ -130,10 +130,22 @@ Extract
 ```
 tar -xf staking-deposit-cli-linux-amd64.tar.gz
 ```
-Edit Address <Masukan Address EVM kalian>
+Edit Address Masukan Address EVM kalian
 ```
-./deposit new-mnemonic --num_validators=1 --mnemonic_language=english --chain=auroria --eth1_withdrawal_address=<INSERT ADDRESS>
+./deposit new-mnemonic --num_validators=1 --mnemonic_language=english --chain=auroria --eth1_withdrawal_address=ADDRESS KALIAN
 ```
+
+```env
+Pilih bahasa ketikan angka dan Enter
+Masukan addres yang sama 
+Buat password minimal 8
+Konfirmasi Password
+Simpan mnemonicnya yang muncul
+Jika sudah tekan keyboard bebas
+Masukan mnemonic yang telah disimpan
+Done
+```
+
 Masuk ke folder
 ```
 cd validator_keys
