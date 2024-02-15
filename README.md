@@ -231,7 +231,7 @@ Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih be
 
 # DONE
 
-# Sementara ini saja, next info jika update akan saya share di [Twitter](x.com/vegardian)
+# Sementara ini saja, next info jika update akan saya share di [x](https://x.com/vegardian)
 
 
 {Jika ada kesalahan harap dimaklumi karena newbie :D }
