@@ -23,7 +23,6 @@ masukan command
 
 ```
 sudo apt update && sudo apt upgrade
-
 ```
 Kalau ada perintah [Y/n] ketik Y dan Enter dan jika muncul prompt atau pop up klik OK OK aja
 
@@ -50,7 +49,6 @@ sudo ufw deny 4000/tcp
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw enable
-
 ```
 Dan jika muncul perintah ketik y dan Enter saja
 
@@ -60,25 +58,21 @@ Dan jika muncul perintah ketik y dan Enter saja
 geth
 ```
 wget https://github.com/stratisproject/go-stratis/releases/download/0.1.1/geth-linux-amd64-5c4504c.tar.gz
-
 ```
 
 beacon
 ```
 wget https://github.com/stratisproject/prysm-stratis/releases/download/0.1.1/beacon-chain-linux-amd64-0ebd251.tar.gz
-
 ```
 
 validator
 ```
 wget https://github.com/stratisproject/prysm-stratis/releases/download/0.1.1/validator-linux-amd64-0ebd251.tar.gz
-
 ```
 
 staking
 ```
 wget https://github.com/stratisproject/staking-deposit-cli/releases/download/0.1.0/staking-deposit-cli-linux-amd64.zip
-
 ```
 
 # 3 Extract semua filenya
@@ -91,6 +85,5 @@ Rm -rf beacon-chain-linux-amd64-0ebd251.tar.gz
 tar -xf validator-linux-amd64-0ebd251.tar.gz
 rm -rf validator-linux-amd64-0ebd251.tar.gz
 unzip staking-deposit-cli-linux-amd64.zip
-
 ```
 
