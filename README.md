@@ -11,13 +11,7 @@ VPS
 
 ## Tutorial
 
-# 1. Register Link
-
-Buka Browser
-https://auroria.launchpad.stratisevm.com/en/overview
-centang, next.sampai deposit
-(belum lengkap)
-
+# 1. Setting vps
 
 masukan command 
 
@@ -150,10 +144,65 @@ Masuk ke folder
 ```
 cd validator_keys
 ```
-download file deposit_dataxxxx.json
-upload file deposit ke browser.
-konek wallet
-centang semua, continue
-confirm deposit
+- Download file deposit_dataxxxx.json ke hp atau pc
+- Done
+
+# 6 Register di Web dan Upload file deposit data
+
+Fuaucet terlebih dahulu
+```
+https://auroria.faucet.stratisevm.com/
+```
+
+Buka Browser
+```
+https://auroria.launchpad.stratisevm.com/en/overview
+```
+- Centang, next.sampai deposit
+- Upload file deposit yang sudah di download dari vps ke browser.
+- Connect wallet
+- Centang semua, continue
+- Confirm deposit
+
+# 7 Setting Validator
+
+Buka vps
+kembali ke folder root
+```
+cd
+```
+
+Edit bagian letak keystore kalian dan hapus tanda <>
+```
+./validator accounts import --keys-dir=<letak-keystore-kalian> --auroria
+```
+contoh
+```
+./validator accounts import --keys-dir=/root/staking-deposit-cli-linux-amd64/validator_keys --auroria
+```
+Ketika muncul seperti dibawah
+```
+Enter a wallet directory (default: /root/.eth2validators/prysm-wallet-v2):
+```
+Copy lokasi default wallet tersebut untuk digunakan run validator
+- Tekan Enter saja dan masukan password
+
+# 8 Run Validator
+
+Jalankan screen terlebih dahulu
+
+```
+screen -Rd validator
+```
+
+Edit commandnnya dan hapus <> isi letak wallet default yang sudah disetting di Validator dan address wallet kalian
+```
+./validator --wallet-dir=<letak-wallet-kalian> --auroria --suggested-fee-recipient=<address-wallet-kalian>
+```
+contoh
+```
+./validator --wallet-dir=/root/.eth2validators/prysm-wallet-v2 --auroria --suggested-fee-recipient=0x......
+```
+
 
 
