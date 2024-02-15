@@ -116,8 +116,32 @@ Copas
 ```
 ./beacon-chain --auroria --datadir=data\testnet\beacon --execution-endpoint=http://localhost:8551 --jwt-secret=jwtsecret
 ```
+Jika muncul prompt untuk "accept" ketikan accept dan Enter
+
 Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih berjalan secara background
 
+# 5 Setting Wallet
 
+Masuk ke folder
+```
+cd staking-deposit-cli-linux-amd64/
+```
+Extract
+```
+tar -xf staking-deposit-cli-linux-amd64.tar.gz
+```
+Edit Address <Masukan Address EVM kalian>
+```
+./deposit new-mnemonic --num_validators=1 --mnemonic_language=english --chain=auroria --eth1_withdrawal_address=<INSERT ADDRESS>
+```
+Masuk ke folder
+```
+cd validator_keys
+```
+download file deposit_dataxxxx.json
+upload file deposit ke browser.
+konek wallet
+centang semua, continue
+confirm deposit
 
 
