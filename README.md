@@ -11,11 +11,14 @@ Tutorial Stratis Node
 
 ## RPC
 
-Network Name ```Auroria```
+Network Name  # ```Auroria```
 RPC URL ```https://auroria.rpc.stratisevm.com```
-CID ```205205```
-Symbol ```STRAX```
-Explorer ```https://auroria.explorer.stratisevm.com```
+CID 
+```205205```
+Symbol 
+```STRAX```
+Explorer 
+```https://auroria.explorer.stratisevm.com```
 
 
 ## Tutorial
