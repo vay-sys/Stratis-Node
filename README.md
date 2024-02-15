@@ -1,3 +1,5 @@
+{Tahap Pembuatan}
+
 # Stratis-Node
 Tutorial Stratis Node
 
@@ -73,5 +75,15 @@ staking
 wget https://github.com/stratisproject/staking-deposit-cli/releases/download/0.1.0/staking-deposit-cli-linux-amd64.zip
 ```
 
+# 3 Extract semua filenya
 
+```
+tar -xf geth-linux-amd64-5c4504c.tar.gz
+rm -rf geth-linux-amd64-5c4504c.tar.gz
+tar -xf beacon-chain-linux-amd64-0ebd251.tar.gz
+Rm -rf beacon-chain-linux-amd64-0ebd251.tar.gz
+tar -xf validator-linux-amd64-0ebd251.tar.gz
+rm -rf validator-linux-amd64-0ebd251.tar.gz
+unzip staking-deposit-cli-linux-amd64.zip
+```
 
