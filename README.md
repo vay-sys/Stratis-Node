@@ -95,7 +95,28 @@ rm -rf validator-linux-amd64-0ebd251.tar.gz
 unzip staking-deposit-cli-linux-amd64.zip
 ```
 
+# 4 Running NODE
 
+Pertama buat screen dulu untuk bisa jalankan secara background geth
+
+```
+screen -Rd geth
+```
+Setelah muncul tampilan baru copas kode dibawah untuk run node nya
+```
+./geth --auroria --http --http.api eth,net,engine,admin --datadir=data\testnet\geth --authrpc.addr=127.0.0.1 --authrpc.jwtsecret=jwtsecret --syncmode=full
+```
+Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih berjalan secara background
+
+Selanjutnya untuk RUN Beacon buat screen dulu
+```
+screen -Rd beacon
+```
+Copas 
+```
+./beacon-chain --auroria --datadir=data\testnet\beacon --execution-endpoint=http://localhost:8551 --jwt-secret=jwtsecret
+```
+Setelah run tekan pada keyboard CTRL + A + D untuk minimize screen biar masih berjalan secara background
 
 
 
